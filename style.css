@@ -1,0 +1,104 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dotted black;
+    width: 290px;
+    height: 500px;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-color:hsl(216, 50%, 16%) ;
+}
+#nft-img{
+    width: 250px;
+    height: 250px;
+    border-radius:10px;
+    margin: 10px;
+    background: url(images/image-equilibrium.jpg);
+    background-size: cover;
+}
+
+#title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 20px;
+    color: hsl(0, 0%, 100%);
+}
+#title:hover{
+    color:hsl(178, 100%, 50%);
+}
+#description{
+    font-size:16px;
+    margin-left: 15px;
+    color: hsl(215, 32%, 27%);
+}
+#nft-info{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+.images{
+    height: 15px;
+}
+#crypto-img{
+    width: 8px;
+}
+#timer,#amount{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+#amount{
+    color: hsl(178, 100%, 50%);
+}
+#timer{
+    color:hsl(215, 32%, 27%);
+}
+hr{
+    width: 250px;
+    border: 1px solid hsl(215, 32%, 27%);
+    display: block;
+    /* margin: 10px auto; */
+    background-color: hsl(215, 32%, 27%);
+}
+#owner{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    gap: 10px;
+    margin-top: 17px;
+}
+#avatar{
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+#eye{
+    display: block;
+    margin: 0 auto;
+    border: 1px dotted red;
+    border-radius: 10px;
+    padding: 100px;
+    opacity: 0;
+    background-color: hsla(178, 100%, 50%, 0.5);
+}
+#eye:hover{
+    opacity: 1;
+}
+#name{
+    color:hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+#name:hover{
+    color:hsl(178, 100%, 50%);
+}
+#owner-info{
+    color:hsl(215, 32%, 27%);
+}
